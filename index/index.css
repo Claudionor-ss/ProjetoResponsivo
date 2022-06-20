@@ -1,0 +1,132 @@
+.Body{
+  
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a0a5ff+0,2737fe+100 */
+  background: rgb(160,165,255); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(160,165,255,1) 0%, rgba(39,55,254,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(160,165,255,1)), color-stop(100%,rgba(39,55,254,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  rgba(160,165,255,1) 0%,rgba(39,55,254,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  rgba(160,165,255,1) 0%,rgba(39,55,254,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  rgba(160,165,255,1) 0%,rgba(39,55,254,1) 100%); /* IE10+ */
+  background: linear-gradient(135deg,  rgba(160,165,255,1) 0%,rgba(39,55,254,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0a5ff', endColorstr='#2737fe',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.Title_Primary{
+    font-size: 4rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+nav {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;  
+}
+.btn-nav{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;   
+}
+.btn-nav:hover{
+    color: rgb(250, 253, 250);
+    cursor: pointer;   
+}
+.container-p{
+  margin-top: 100px;
+}
+.container{
+    width: 98%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 1rem;
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+    font-style: italic;
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+.container div{
+    border:2px solid blue;
+    
+}
+.Image-1{  
+    
+    width: 200px;
+    height: 140px;
+    
+}
+.Image-2{
+    width: 220px;
+    height: 140px;
+}
+.Image-3{
+    width:135px;
+    height:140px;
+}
+.Image-4{
+    width:120px;
+    height:140px;
+    
+}
+.div-image2{
+    display: flex;
+}
+.responsivo-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.responsivo-image{
+    width: 50%;
+    height: 35%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.responsivo-image:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+footer{
+    display: flex;
+    justify-content:center;
+   align-items:center;
+    text-align: center;
+    background-color: rgb(3, 41, 83);
+    height: 100px;
+    color:white;
+
+    font-size: 1rem;
+}  
+@media (max-width: 1098px){
+    .Title_Primary{
+        font-size: 2.7rem;
+        margin-bottom: 1rem;
+    }
+    .container{
+       padding: 0;
+       margin: 0 auto;
+       margin-top: 1rem;
+        font-size: 2rem;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .responsivo-image{
+        width: 80%;
+        height: 65%;
+    }
+}
+    
+
+
